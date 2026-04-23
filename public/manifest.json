@@ -1,0 +1,17 @@
+{
+  "name": "Soccer Academy: Kick & Learn",
+  "short_name": "Soccer Academy",
+  "description": "Desktop-grade football educational dashboard.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/isometric/512/football.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
