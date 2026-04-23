@@ -1,1 +1,16 @@
+name: CI
+on: [push, pull_request]
 
+# Add this block here to apply it to the entire workflow
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: my-artifact
+          path: bin/
